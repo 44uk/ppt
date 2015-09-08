@@ -1,0 +1,17 @@
+{
+  "name": "ppt",
+  "version": "1.0.0",
+  "authors": [
+    "yukku0423"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "build/components"
+  ],
+  "dependencies": {
+    "reveal.js": "~3.1.0"
+  }
+}
