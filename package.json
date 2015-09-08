@@ -1,0 +1,29 @@
+{
+  "name": "ppt",
+  "version": "1.0.0",
+  "description": "Portable Presentaion Template by reveal.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yukku0423/ppt.git"
+  },
+  "scripts": {
+    "build": "gulp build:slide && gulp build:img64",
+    "build:img64": "gulp build:img64",
+    "build:slide": "gulp build:slide",
+    "bower:install": "bower install",
+    "watch": "watch 'npm run build' src/",
+    "start": "npm run watch"
+  },
+  "author": {
+    "name": "yukku0423",
+    "web": "http://44uk.net"
+  },
+  "devDependencies": {
+    "bower": "^1.5.2",
+    "gulp": "^3.9.0",
+    "gulp-img64": "git://github.com/yukku0423/gulp-img64.git#fix-base-file-path",
+    "gulp-pandoc": "^0.2.1",
+    "watch": "^0.16.0"
+  }
+}
